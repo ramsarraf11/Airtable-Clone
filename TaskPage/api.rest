@@ -1,0 +1,31 @@
+GET https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo
+Content-Type: application/json
+
+###
+POST https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo
+Content-Type: application/json
+
+{
+    "name": "Hello",
+    "status": "Done",
+    "start": "2022-07-18",
+    "end": 1671284292,
+    "note": "Complete Your task at eod"
+}
+
+####
+POST https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo
+Content-Type: application/json
+
+{
+    "name": "",
+    "status": "",
+    "note": ""
+}
+###
+PATCH https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo/2
+Content-Type: application/json
+
+{
+    "status":"Completed"
+}
