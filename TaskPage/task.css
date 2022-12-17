@@ -11,10 +11,18 @@ table {
 }
 table,th,td{
     border: 1px solid #c4bcbc;
+    border-radius: 10px;
     border-collapse: collapse;
 }
 td,th{
-    /* padding: 7px; */
+}
+#addTask{
+   padding:7px ;
+   border-radius: 10px;
+   color: white;
+   background-color: rgb(20, 87, 203);
+   cursor: pointer;
+   border: none;
 }
 td>input , td>select{
     width: 100%;
@@ -29,3 +37,4 @@ td>input , td>select{
     border: 1px solid rgb(236, 229, 229);
     border-radius: 10px;
 }
+
