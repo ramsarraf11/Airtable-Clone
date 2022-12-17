@@ -18,11 +18,42 @@ h1{
 text-align: center;
 color:white;
 }
+#container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+
+}
+#container>div>img{
+    width:250px;
+    cursor: pointer;
+  
+
+}
+#container>div{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 30px;
+      border-radius:  2px;
+}
+#container>div img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  #container>div>h2{
+    color:azure;
+  }
+
 </style>
 <body>
     <h1>Explore, discover, and share your passion</h1>
     <div id="crousel">
         
+    </div>
+    <div id="container">
+
     </div>
 </body>
 

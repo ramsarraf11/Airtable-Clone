@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Task</title>
+    <link rel="stylesheet" href="./task.css" />
+    <script src="./task.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Notes</th>
+            <th>Status</th>
+            <th>Priority</th>
+            <th>Start Date</th>
+            <th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td>
+              <select name="" id="">
+                <option value=""></option>
+                <option value="Done">Done</option>
+                <option value="Done">Todo</option>
+                <option value="Done">In Progress</option>
+              </select>
+            </td>
+            <td>
+              <select name="" id="">
+                <option value=""></option>
+                <option id="low" value="">Low</option>
+                <option value="">Medium</option>
+                <option value="">High</option>
+              </select>
+            </td>
+            <td><input type="date" /></td>
+            <td><input type="date" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="addTask">Add Task</button>
+    </div>
+  </body>
+</html>
