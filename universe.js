@@ -1,10 +1,9 @@
 
 function crousel(){
     let images=[
-        "file:///C:/Users/Naveen%20Kumar/OneDrive/Desktop/cw/overjoyed-class-89/images/WhatsApp%20Image%202022-12-15%20at%2000.09.32%20(1).jpeg",
-        "file:///C:/Users/Naveen%20Kumar/OneDrive/Desktop/cw/overjoyed-class-89/images/WhatsApp%20Image%202022-12-15%20at%2000.09.32.jpeg",
-
-"file:///C:/Users/Naveen%20Kumar/OneDrive/Desktop/cw/overjoyed-class-89/images/WhatsApp%20Image%202022-12-15%20at%2000.09.33.jpeg",
+        "https://dl.airtable.com/.exploreCoverImages/159009a0cd8c8a0af55b9e0eb7ba54dc/f4897fb4",
+        "https://dl.airtable.com/exploreCoverImages%2FJUJ2mDSYO5vGKf6T1hg8_airtable-1-1.jpg",
+        "https://dl.airtable.com/.exploreCoverImages/e22dbdccf8066ede5e05522ba0e2f5d5/d0fb8f8b"
 
 ];
 let crousel_div=document.getElementById("crousel");
@@ -134,9 +133,7 @@ const universe_data = [
   ]
   
   const care_data= async()=>{
-    // let ans= await fetch("http://localhost:3000/care")
-    // let cate= await ans.json()
-    // append_data(cate)
+  
     try{
         let ans= await fetch("http://localhost:3000/universe_data")
     let cate= await ans.json()
