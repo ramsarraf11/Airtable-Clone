@@ -190,3 +190,10 @@ body {
     text-decoration: none;
     color: black;
   }
+  #box2 #login{
+    border: none;
+    background-color: #0768f8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
