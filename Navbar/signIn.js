@@ -9,7 +9,7 @@ let data = JSON.parse(localStorage.getItem('loginData'));
         
         if(data.email==email && data.pass == password){
             alert('Loig in Succes');
-           
+            window.location.href = '../TaskPage/task.html'
         }else{
             alert('Fill Correct data');
             // Please herf here using (window.location.herf="your location")
