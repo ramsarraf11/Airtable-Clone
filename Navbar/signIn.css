@@ -1,0 +1,82 @@
+body {
+    font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-image: url(signuplogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #main {
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+    height: 700px;
+  }
+  #logo>div {
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+    color: #333333;
+    gap: 0px;
+    align-items: center;
+    height:80px;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: center;
+    margin-top:50px;
+  }
+  #logo>div>img{
+   width: 120px;
+   height: 50px;
+    }
+    #header{
+        width: 80%;
+        margin: 40px auto;
+    }
+    #header>div{
+        display: flex;
+        justify-content: space-between;
+    }
+    #header>div>p{
+      margin-top:26px;
+      font-weight: 500;
+    }
+    #header>div>p>a{
+        color:#2d7ff9;
+        text-decoration: none;
+        line-height: 1.25;
+        border-bottom: 1px solid #2d7ff9;
+        font-weight: 500;
+    }
+    #header>div>p>a:hover{
+        color: blue;
+        border-bottom: 1px solid blue;
+    }
+    .mainDiv>div{
+        width: 80%;
+        margin: auto;
+    }
+    .mainDiv>div>input{
+        width: 100%;
+        font-size: x-large;
+        padding:10px 5px;
+        border-radius: 3px;
+        border: 2px solid gray; ;
+    }
+    #submit{
+        width: 102.8%;
+        font-size: x-large;
+        padding:10px 5px;
+        border-radius: 3px;
+        margin-top: 30px;
+        background-color:rgb(150,191,252);
+        border: none; 
+    }
+    h4{
+        text-align: center;
+        margin:20px auto;
+        position: relative;
+        max-width: 500px;
+    }
+    
