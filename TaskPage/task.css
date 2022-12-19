@@ -5,36 +5,60 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-table {
+.container{
   width: 90%;
-  margin: 50px auto auto auto;
+  margin:100px auto;
 }
-table,th,td{
-    border: 1px solid #c4bcbc;
-    border-radius: 10px;
-    border-collapse: collapse;
+table {
+  width: 100%;
 }
-td,th{
+th{
+  font-size: 18px;
+  font-weight: 400;
 }
-#addTask{
-   padding:7px ;
-   border-radius: 10px;
-   color: white;
-   background-color: rgb(20, 87, 203);
-   cursor: pointer;
-   border: none;
+table,
+th,
+td {
+  border: 1px solid #c4bcbc;
+  border-radius: 10px;
+  border-collapse: collapse;
+  border-radius: 10px;
 }
-td>input , td>select{
-    width: 100%;
-    height: 100%;
-    outline: 0;
-    border: none;
-    padding: 7px;
+td,
+th {
 }
-#low{
-    color: rgb(233, 126, 126);
-    padding: 3px;
-    border: 1px solid rgb(236, 229, 229);
-    border-radius: 10px;
+select::-ms-expand {
+  display: none;
+}
+#addTask {
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(39, 102, 209);
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+#addTask:hover{
+  background-color:rgb(34, 86, 175) ;
+}
+td > input,
+td > select {
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+}
+#low {
+  color: rgb(233, 126, 126);
+  padding: 3px;
+  border: 1px solid rgb(236, 229, 229);
+  border-radius: 10px;
 }
 
+.fa-solid {
+  padding-left: 45%;
+  cursor: pointer;
+}
