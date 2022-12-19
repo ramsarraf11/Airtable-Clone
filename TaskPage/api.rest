@@ -23,9 +23,9 @@ Content-Type: application/json
     "note": ""
 }
 ###
-PATCH https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo/2
+PATCH https://639c1a6c64fcf9c11cab7654.mockapi.io/api/todos/todo/1
 Content-Type: application/json
 
 {
-    "status":"Completed"
+    "status":"In Progress"
 }

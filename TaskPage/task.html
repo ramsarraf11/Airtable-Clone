@@ -7,6 +7,7 @@
     <title>Create Task</title>
     <link rel="stylesheet" href="./task.css" />
     <script src="./task.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="container">
@@ -19,6 +20,7 @@
             <th>Priority</th>
             <th>Start Date</th>
             <th>Deadline</th>
+            <th>End Task</th>
           </tr>
         </thead>
         <tbody>
@@ -43,15 +45,11 @@
             </td>
             <td><input type="date" /></td>
             <td><input type="date" /></td>
+            <td ><i class="fa-solid fa-trash"></i>td>
           </tr>
         </tbody>
       </table>
       <button id="addTask">Add Task</button>
     </div>
-    <select name="" id="mySelect">
-      <option value=""></option>
-      <option value="low">low</option>
-      <option value="high">High</option>
-    </select>
   </body>
 </html>
