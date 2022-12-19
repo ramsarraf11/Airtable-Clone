@@ -226,3 +226,16 @@ renderMidContent(content_list_9, "Project Management")
 mid_container_list.innerHTML = arr.join(" ")
 
 
+let signUp = document.querySelector(".signup")
+signUp.addEventListener("click",function(){
+    window.location.href="../Navbar/signUp.html"
+})
+
+let signIn = document.querySelector("#login")
+signIn.addEventListener("click",function(){
+    window.location.href="../Navbar/signIn.html"
+})
+
+document.getElementById("img_link").addEventListener("click",(e)=>{
+  window.location.href = "../index.html"
+})
