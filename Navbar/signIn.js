@@ -8,7 +8,7 @@ let data = JSON.parse(localStorage.getItem('loginData'));
     let password = document.getElementById('password').value;
         
         if(data.email==email && data.pass == password){
-            alert('Loig in Succes');
+            alert('Log in Succes');
             window.location.href = '../TaskPage/task.html'
         }else{
             alert('Fill Correct data');
